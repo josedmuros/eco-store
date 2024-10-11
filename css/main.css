@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #FFEFE7;
+  background-color: #ffefe7;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -12,11 +12,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   justify-content: space-between;
-  color: #7C6A0A;
+  color: #7c6a0a;
   padding: 15px;
 }
 nav p {
-  font-size: 1.5em;
+  font-size: 3em;
   padding-left: 30px;
 }
 nav .icons {
@@ -29,7 +29,7 @@ nav .icons button {
 }
 
 article {
-  color: #7C6A0A;
+  color: #7c6a0a;
   width: auto;
   padding-left: 45px;
   padding-right: 45px;
@@ -58,7 +58,7 @@ article button {
   border-style: none;
 }
 article button {
-  background-color: #FA9500;
+  background-color: #fa9500;
   width: 12vw;
   padding: 20px;
   border-radius: 35px;
@@ -79,7 +79,7 @@ section {
   padding: 60px;
 }
 section h2 {
-  color: #7C6A0A;
+  color: #7c6a0a;
   font-size: 2em;
 }
 section .healthcare, section .furniture {
@@ -102,8 +102,8 @@ section .healthcare .card-section, section .furniture .card-section {
 }
 section .healthcare .card-section .product-card, section .furniture .card-section .product-card {
   width: 14vw;
-  background-color: #FFDAC6;
-  color: #7C6A0A;
+  background-color: #ffdac6;
+  color: #7c6a0a;
   padding: 20px;
   border-radius: 8px;
 }
@@ -132,7 +132,7 @@ section .healthcare .card-section .product-card .product-image img, section .fur
   border-radius: 6px;
 }
 section .furniture .card-section .product-card {
-  background-color: #BABD8D;
+  background-color: #babd8d;
   color: white;
 }
 
@@ -150,10 +150,10 @@ section .furniture .card-section .product-card {
   align-items: center;
 }
 .about-us .mision-section .earth, .about-us .mision-section .innovation {
-  width: 30vw;
+  width: 50vw;
   display: flex;
   gap: 40px;
-  color: #E86424;
+  color: #e86424;
 }
 .about-us .mision-section .earth img, .about-us .mision-section .innovation img {
   -o-object-fit: contain;
@@ -187,7 +187,7 @@ section .furniture .card-section .product-card {
 }
 
 .location {
-  color: #E86424;
+  color: #e86424;
 }
 .location h2 {
   padding-bottom: 60px;
@@ -200,16 +200,22 @@ section .furniture .card-section .product-card {
   align-items: center;
   padding-bottom: 50px;
 }
-.location h3, .location p {
+.location .map img {
+  width: 100%;
+}
+.location h3,
+.location p {
   font-size: 1.5em;
 }
 
 footer {
-  background-color: #FA9500;
+  background-color: #fa9500;
   width: 100%;
   height: auto;
-  padding: 40px;
   color: white;
+}
+footer .links {
+  padding: 40px;
 }
 footer .social-media {
   display: flex;
